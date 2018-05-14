@@ -1,0 +1,21 @@
+{
+  "name": "@pop3/playground",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "LinusU/pop3-playground",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "watch": "webpack --mode=development --watch",
+    "prepublish": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  },
+  "dependencies": {
+    "@pop3/graphics": "^1.0.0-alpha.1",
+    "file-to-array-buffer": "^1.0.0",
+    "raf": "^3.4.0",
+    "uppie": "^1.0.8"
+  }
+}
