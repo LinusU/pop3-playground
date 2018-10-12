@@ -9,13 +9,13 @@
     "prepublish": "webpack --mode=production"
   },
   "devDependencies": {
-    "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.15"
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "@pop3/graphics": "^1.0.0-alpha.1",
     "file-to-array-buffer": "^1.0.0",
     "raf": "^3.4.0",
-    "uppie": "^1.0.8"
+    "uppie": "^1.0.10"
   }
 }
